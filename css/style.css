@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+    body {
+        width: 100vw;
+        background-color: #E5E7FA;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    header {
+       
+        height: 2.5vw;
+        background-color: #f2f2f2;
+        padding: 2vw;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    }
+    .logo {
+        
+        width: 18vw;
+        
+    
+    }
+
+.index2-form-1 {
+    position: relative;
+    width: 36.60vw;
+    height: 36.60vw;
+    left: 7vw;
+    top: 6vw;
+    float: left;
+    
+
+}
+.sign {
+    position: relative;
+    width: 23.13vw;
+    top: 5vw;
+    margin-left: 8vw;
+    bottom: 33.89vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.68vw;
+    color: #0E1543;
+    
+    
+}
+.btn_woodworker {
+    box-sizing: border-box;
+    
+    width: 30.74vw;
+    height: 4.39vw;
+    margin-left: 3vw;
+    margin-top: 10vw;
+    text-align: center;
+    font-size: 2.19vw;
+    background: #FDA911;
+    border: 2px solid #1A67AE;
+    border-radius: 50px;
+    color:black;
+}
+.btn_woodworker:hover {
+    background-color: #1A67AE;
+
+}
+.btn_client {
+    box-sizing: border-box;
+    
+    width: 30.74vw;
+    height: 4.39vw;
+    margin-left: 3vw;
+    margin-top: 4.5vw;
+    font-size: 2.19vw;
+    background: #FDA911;
+    border: 2px solid #1A67AE;
+    border-radius: 50px;
+    color:black;
+}
+.btn_client:hover {
+    background-color: #1A67AE;
+}
+.index2-form-2 {
+    position: relative;
+    top: 4vw;
+    width: 35vw;
+    height: 41vw;
+    left: calc(50% - 474px/2 + 299px);
+    background: rgba(255, 255, 255, 0.74);
+    border-radius: 20px;
+    
+}
+.welcome {
+    position: absolute;
+    top: 2.5vw;
+    margin-left: 6.5vw;
+    font-size: 4.68vw;
+    color: #0E1543;
+
+}
+.email {
+    position: absolute;
+    width: 8.27vw;
+    height: 2.92vw;
+    left: 11%;
+    top: 13.17vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.19vw;
+    line-height: 2.63vw;
+    color: #0E1543;
+}
+.in_email {
+    
+    padding: 0px 0px 0px 15px;
+    border: 2px solid #1A67AE;
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 4.39vw;
+    width: 25.25vw;
+    font-size: 1.83vw;
+    margin-top: 0.5vw;
+}
+.password {
+    position: absolute;
+    width: 8.27vw;
+    height: 2.92vw;
+    left: 11%;
+    top: 21.59vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.19vw;
+    line-height: 2.63vw;
+    color: #0E1543;
+
+   
+}
+.in_password {
+    position: absolute;
+    padding: 0px 0px 0px 15px;
+    border: 2px solid #1A67AE;
+    border-radius: 10px;    
+    background-color: #ffffff;
+    height: 4.39vw;
+    width: 25.25vw;
+    font-size: 1.83vw;
+    margin-top: 0.5vw;
+   
+}
+.forgot {
+    position: absolute;
+    width: 26.57vw;
+    height: 2.92vw;
+    left: 28%;
+    top: 29.64vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.46vw;
+    line-height:  1.75vw;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #0E1543;
+}
+.login_btn {
+    
+box-sizing: border-box;
+color:black;
+position: absolute;
+width: 26.57vw;
+height: 4.39vw;
+left: 11%;
+top: 32.94vw;
+font-size: 2.19vw;
+background: #FDA911;
+border: 2px solid #1A67AE;
+border-radius: 10px;
+}
+.login_btn:hover {
+    background-color: #1A67AE;
+}
