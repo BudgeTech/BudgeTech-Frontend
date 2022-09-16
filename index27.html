@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>BudgeTech</title>
+</head>
+
+<header>
+
+    <nav class="navbar navbar-expand navbar-light bg-light " aria-label="Second navbar example">
+        <div class="container-fluid">
+            <img src="./img/logo.svg">
+          
+          <div class="nav justify-content-end" id="navbarsExample02">
+           
+            <ul class="navbar-nav " style="">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Register Furniture</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Client</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Request</a>
+              </li>
+            </ul>
+       
+            <form role="search">
+              <img src="./img/profile.svg">
+            </form>
+          </div>
+        </div>
+      </nav>
+
+</header>
+
+
+<style>
+
+*{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-color: #E5E7FA;
+    }
+    .container-fluid {
+        height: 90px;
+    }
+    .nav-item {
+            margin-right: 30px;
+            font-size: 16px;
+    }
+    .navbar {
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    }
+    .title {
+            text-align: center;
+            margin-top: 3vw;
+            font-size: 2vw;
+            color: #0E1543;
+    }
+    .form-photo {
+        position: absolute;
+        width: 20vw;
+        height: 25vw;
+        margin-left: 20vw;
+        display: grid;
+       background-color: white;
+       border: 2px solid #1A67AE;
+       border-radius: 10px;
+   
+      
+        
+
+    }
+    .button {
+        border-radius: 10px;
+    }
+    .input-1 {
+        margin-left: 44vw;
+        gap: 1vw;
+        width: 50%;
+    }
+    .description {
+        margin-top: 1vw;
+        width: 100%;
+    }
+    .form-color {
+        width: 100%;
+        height: 2VW;
+        background-color: white;
+        margin-top: 1vw;
+        text-align: center;
+        padding-top: 0.3vw;
+    }
+    .text-color {
+        display: grid;
+        grid-template-columns: auto auto;
+        
+        margin-top: 2vw;
+        
+    }
+    .button-color-1 {
+        margin-right: 30vw;
+        width: 2vw;
+        height: 2vw;
+        background-color: Black;
+        display: inline-block;
+        border: 1px solid #FDA911;
+        border-radius: 5px;
+    }
+    .button-color-2 {
+        
+        margin-left: -29vw;
+
+        width: 2vw;
+        height: 2vw;
+        background-color: #8B713D;
+        display: inline-block;
+        border: 1px solid #FDA911;
+        border-radius: 5px;
+    }
+    .button-color-3 {
+        
+       margin-left: 1vw;
+
+        width: 2vw;
+        height: 2vw;
+        background-color: #FFE8C7;
+        display: inline-block;
+        border: 1px solid #FDA911;
+        border-radius: 5px;
+    }
+    .button-color-4 {
+        
+        margin-left: 1vw;
+
+        width: 2vw;
+        height: 2vw;
+        background-color: #E9E9E9;
+        display: inline-block;
+        border: 1px solid #FDA911;
+        border-radius: 5px;
+    }
+    .button-color-5 {
+        
+        margin-left: 1vw;
+
+        width: 2vw;
+        height: 2vw;
+        background-color: white;
+        display: inline-block;
+        border: 1px solid #FDA911;
+        border-radius: 5px;
+    }
+    .text-color-2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 2vw;
+        
+    }
+    .form-size {
+        width: 100%;
+        height: 2VW;
+        background-color: white;
+        margin-top: 1vw;
+        text-align: center;
+        padding-top: 0.3vw;
+    }
+    .size {
+        margin-top: 1vw;
+        width: 40%;
+    }
+    .form-time {
+        width: 100%;
+        height: 2VW;
+        background-color: white;
+        margin-top: 1vw;
+        text-align: center;
+        padding-top: 0.3vw;
+    }
+    .input-2 {
+        margin-top: 2vw;
+        display: grid;
+        grid-template-columns: auto auto;
+ 
+        width: 50%;
+    }
+    .button {
+        margin-top: 2vw;
+        margin-left: 85%;
+        width: 30%;
+        margin-bottom: 2vw;
+        }
+
+</style>
+<body>
+    
+    <div class="title">
+        <p>Register Furniture</p>
+    </div>
+
+    <form class="form-photo">
+    <button type="button">Add a Photo</button>
+    </form>
+
+    <div class="input-1">
+        <p>Add name: </p>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+    
+        <div class="description">
+            <label for="exampleFormControlTextarea1" class="form-label">Add description:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        
+            <form class="form-color">
+                <p>Color options</p>
+            </form>
+
+            <div class="text-color">
+                <p>Add standart color:</p>
+
+                <div class="buttons-color">
+                    <form class="button-color-1"></form>
+                    <form class="button-color-2"></form>
+                </form>
+            </div>
+        </div>
+
+        <div class="text-color-2">
+            <p>Add color:</p>
+
+            <div class="buttons-color">
+                <form class="button-color-1"></form>
+                <form class="button-color-2"></form>
+                <form class="button-color-3"></form>
+                <form class="button-color-4"></form>
+                <form class="button-color-5"></form>
+            </form>
+        </div>
+    </div>
+            </div>
+            <form class="form-size">
+                <p>Furniture size</p>
+            </form>
+
+            <div class="size">
+                <p>1 m x 90 cm</p>
+                <p>1,15 m x 90 cm</p>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            
+            <form class="form-time">
+                <p>Furniture size</p>
+            </form>
+
+            <div class="input-2">
+                <p>Add name: </p>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+        </div>
+
+        <form class="button">
+            <button type="button" class="btn btn-warning" style="width:50%;">Back</button>
+    </div>
+    
+</div>
+   
+        
+</body>
+</html>
