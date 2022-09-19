@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="./img/Camada 1.png">
+    <title>BudgeTech</title>
+
+</head>
+
+    <header>
+        
+        <div class="logo"> 
+            <img src="./img (1)/logo (1).svg">
+        </div>
+
+    </header>
+<style>
+    body{
+    background-color:#E5E7FA;
+}
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+header {
+    position: relative;
+    height: 2.5vw;
+    background-color: #f2f2f2;
+    padding: 2vw;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+    .index1-form-1 {
+    position: relative;
+    width: 36.60vw;
+    height: 36.60vw;
+    left: 7vw;
+    top: 6vw;
+    float: left;
+    
+
+}
+.sign {
+    position: relative;
+    width: 23.13vw;
+    top: 5vw;
+    margin-left: 8vw;
+    bottom: 33.89vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.68vw;
+    color: #0E1543;
+    
+    
+}
+.btn_woodworker {
+    box-sizing: border-box;
+    color:#0E1543;
+    position: absolute;
+    width: 26.57vw;
+    height: 4.39vw;
+    left: 11%;
+    top: 15.94vw;
+    font-size: 2.19vw;
+    background: #FDA911;
+   
+    border-radius: 10px;
+    
+}
+.btn_woodworker:hover {
+    background-color: #fdfdfd;
+    color: black;
+
+}
+.btn_client {
+    box-sizing: border-box;
+    color:#0E1543;
+    position: absolute;
+    width: 26.57vw;
+    height: 4.39vw;
+    left: 11%;
+    top: 25.94vw;
+    font-size: 2.19vw;
+    background: #FDA911;
+    
+    border-radius: 10px;
+}
+.btn_client:hover {
+    background-color: #fafafa;
+    color: black;
+}
+.index1-form-2 {
+    position: relative;
+    top: 4vw;
+    width: 35vw;
+    height: 41vw;
+    left: calc(50% - 474px/2 + 299px);
+    background: rgba(255, 255, 255, 0.74);
+    border-radius: 20px;
+}
+.welcome {
+    position: absolute;
+    top: 2.5vw;
+    margin-left: 6.5vw;
+    font-size: 4.68vw;
+    color: #0E1543;
+
+}
+.email {
+    position: absolute;
+    width: 8.27vw;
+    height: 2.92vw;
+    left: 11%;
+    top: 13.17vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.19vw;
+    line-height: 2.63vw;
+    color: #0E1543;
+}
+.in_email {
+    
+    padding: 0px 0px 0px 15px;
+    border: 2px solid #1A67AE;
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 4.39vw;
+    width: 25.25vw;
+    font-size: 1.83vw;
+    margin-top: 0.5vw;
+}
+.password {
+    position: absolute;
+    width: 8.27vw;
+    height: 2.92vw;
+    left: 11%;
+    top: 21.59vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.19vw;
+    line-height: 2.63vw;
+    color: #0E1543;
+
+   
+}
+.in_password {
+    position: absolute;
+    padding: 0px 0px 0px 15px;
+    border: 2px solid #1A67AE;
+    border-radius: 10px;    
+    background-color: #ffffff;
+    height: 4.39vw;
+    width: 25.25vw;
+    font-size: 1.83vw;
+    margin-top: 0.5vw;
+   
+}
+.forgot {
+    position: absolute;
+    width: 26.57vw;
+    height: 2.92vw;
+    left: 28%;
+    top: 29.64vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.46vw;
+    line-height:  1.75vw;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #0E1543;
+}
+.login_btn {
+    
+box-sizing: border-box;
+color:#0E1543;
+position: absolute;
+width: 26.57vw;
+height: 4.39vw;
+left: 11%;
+top: 32.94vw;
+font-size: 2.19vw;
+background: #FDA911;
+border-radius: 10px;
+}
+.login_btn:hover {
+    background-color: #ffffff;
+    color: #0E1543;
+}
+
+</style>
+<body>
+
+    <form class="index1-form-1">
+    
+        <div class="sign">
+            <p>Sign in as</p>
+        </div>
+            <button type="button" class="btn_woodworker">Woodworker</button>
+            <button type="button" class="btn_client">Client</button>
+            
+   </form>
+
+    <form class="index1-form-2">
+
+            <div class="welcome">
+                <p>Welcome!</p>
+            </div>    
+            <div class="email">
+                <p>E-mail</p>
+                    <input type="text" class="in_email">
+            </div> 
+            <div class="password">
+                <p>Password</p>
+                    <input type="password" class="in_password">
+            </div>
+            <div class="forgot">
+                <u>Forgot your password?</u>
+            </div>
+                <button type="button" class="login_btn">Login</button>
+
+         </form>
+  
+</body>
+
+</html>

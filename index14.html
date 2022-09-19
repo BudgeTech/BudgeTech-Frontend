@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="./img/Camada 1.png">
+    <title>BudgeTech</title>
+</head>
+<header>
+
+    <div class="logo">
+        <img src="./img (1)/logo (1).svg">
+    </div>
+    <div class="index2-menu1">  
+        <a href="">Register Furniture </a>
+    <div class="index2-menu2">  
+        <a href="">Client</a>
+    <div class="index2-menu3">  
+        <a href="">Budget</a>
+    <div class="profile-2">
+        <img src="./img (1)/profile (1).svg"></div>        
+    </div>
+</div>
+</header>
+<style>
+    * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+.index2-menu1 {
+    display: flex;
+
+    margin-left: 66vw;
+    margin-top: -1.8vw;
+   
+}
+.index2-menu1 a {
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: #0E1543;
+}
+.index2-menu1 a:hover {
+    color: #1A67AE;
+}
+.index2-menu2 {
+    display: flex;
+    margin-left: 3vw;
+    
+}
+.index2-menu2 a {
+    text-decoration: none;
+    color: #0E1543;
+}
+
+.index2-menu2 a:hover {
+    color: #1A67AE;
+}
+.index2-menu3 {
+    display: flex;
+    display: inline-block;
+    margin-left: 3vw;
+}
+.index2-menu3 a {
+    text-decoration: none;
+    color: #0E1543;
+}
+
+.index2-menu3 a:hover {
+    color: #1A67AE;
+}
+.profile-2 {
+    display: flex;
+    margin-left: 7vw;
+    margin-top: -2.4vw;
+  
+    
+}
+body{
+    background-color:#E5E7FA;
+}
+header {
+    position: relative;
+    height: 2.5vw;
+    background-color: #f2f2f2;
+    padding: 2vw;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+.title{
+    position: absolute;
+    width: 335px;
+    left: calc(50% - 335px/2 + 0.5px);
+    top: 130px;
+    bottom: 597px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    
+    color: #0E1543;
+}
+.cpf{
+    position: absolute;
+width: 180px;
+height: 33px;
+left: 552px;
+top: 240px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+color: #0E1543;
+}
+#input-cpf-center{
+    box-sizing: border-box;
+    padding: 0 0 0 45px;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 550px;
+    top: 270px;
+
+background: #FFFFFF;
+border: 2px solid #1A67AE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.phone-number{
+    position: absolute;
+width: 180px;
+height: 33px;
+left: 552px;
+top: 350px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+color: #0E1543;
+}
+#input-phone-center{
+    box-sizing: border-box;
+    padding: 0 0 0 45px;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 550px;
+    top: 380px;
+
+background: #FFFFFF;
+border: 2px solid #1A67AE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.client-name{
+    position: absolute;
+width: 180px;
+height: 33px;
+left: 552px;
+top: 460px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+color: #0E1543;
+}
+#input-client-center{
+    box-sizing: border-box;
+    padding: 0 0 0 45px;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 550px;
+    top: 490px;
+
+background: #FFFFFF;
+border: 2px solid #1A67AE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+    
+    .btn-next{
+    
+        box-sizing: border-box;
+    color:#0E1543;
+    position: absolute;
+    width: 15.57vw;
+    height: 4.39vw;
+    left: 42.2%;
+    top: 44.94vw;
+    font-size: 1.49vw;
+    background: #FDA911;
+    border-radius: 10px;
+    }
+    .btn-next:hover {
+        background-color: #ffffff;
+        color: #0E1543;
+    }
+</style>
+<body>
+    
+    <div class="title">
+        <p>Client Search </p>
+    </div>
+
+    <div class="cpf">
+        <p>CPF</p>
+    </div>
+    
+    <div>
+        <input type="text" class="input-name" id="input-cpf-center">
+    </div>
+   
+    <div class="phone-number">
+        <p>Phone number</p>
+    </div>
+
+    <div>
+        <input type="text" class="input-last" id="input-phone-center">
+    </div>
+
+    <div class="client-name">
+        <p>Client Name</p>
+    </div>
+
+        <input type="text" class="input-cpf" id="input-client-center">
+
+    </div>
+
+    <div class="buttons">
+            <button type="button" class="btn-next">Search</button></div>
+</body>
+</html>

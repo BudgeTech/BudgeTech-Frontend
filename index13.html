@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="./img/Camada 1.png">
+    <title>BudgeTech</title>
+
+</head>
+
+    <header>
+
+        <div class="logo">
+            <img src="./img (1)/logo (1).svg">
+        </div>
+
+    </header>
+<style>
+
+body{
+    background-color:#E5E7FA;
+}
+     * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+header {
+    position: relative;
+    height: 2.5vw;
+    background-color: #f2f2f2;
+    padding: 2vw;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.index13-perfil{
+    position: absolute;
+    top: 201px;
+    left: 620px;
+    width: 8.7vw;
+    
+}    
+
+    .index13-profile{
+        position: absolute;
+    width: 335px;
+    left: calc(50% - 335px/2 + 0.5px);
+    top: 130px;
+    bottom: 597px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    
+    color: #0E1543;
+
+}
+.index13-name{
+    position: absolute;
+width: 180px;
+height: 33px;
+left: 552px;
+top: 380px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+color: #0E1543;
+}
+#in_name{
+    box-sizing: border-box;
+    padding: 0 0 0 45px;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 550px;
+    top: 410px;
+
+background: #FFFFFF;
+border: 2px solid #1A67AE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.index13-last{
+    position: absolute;
+width: 180px;
+height: 33px;
+left: 552px;
+top: 490px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+color: #0E1543;
+}
+#in_last{
+    box-sizing: border-box;
+    padding: 0 0 0 45px;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 550px;
+    top: 520px;
+
+background: #FFFFFF;
+border: 2px solid #1A67AE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.CPF{
+    position: absolute;
+width: 180px;
+height: 33px;
+left: 552px;
+top: 600px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+color: #0E1543;
+}
+#in_cpf{
+    box-sizing: border-box;
+    padding: 0 0 0 45px;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 550px;
+    top: 630px;
+
+background: #FFFFFF;
+border: 2px solid #1A67AE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.index13-adress{
+    position: absolute;
+    width: 335px;
+    left: calc(50% - 335px/2 + 0.5px);
+    top: 750px;
+    bottom: 597px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    
+    color: #0E1543;
+
+}
+.linha-index13{
+    position: absolute;
+width: 393px;
+height: 0px;
+left: 745px;
+top: 775px;
+background-color: #1A67AE;
+
+border: 1px solid #1A67AE;
+transform: rotate(0.15deg);
+}
+.linha2-index13{
+    position: absolute;
+width: 393px;
+height: 0px;
+left: 210px;
+top: 775px;
+background-color: #1A67AE;
+
+border: 1px solid #1A67AE;
+transform: rotate(0.15deg);
+}
+.index13-street{
+    position: absolute;
+width: 180px;
+height: 33px;
+left: 422px;
+top: 820px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+color: #0E1543;
+}
+#in_street{
+    box-sizing: border-box;
+    padding: 0 0 0 45px;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 420px;
+    top: 850px;
+
+background: #FFFFFF;
+border: 2px solid #1A67AE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.index13-number{
+    position: absolute;
+width: 180px;
+height: 33px;
+left: 700px;
+top: 820px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+color: #0E1543;
+
+}
+#number{
+    box-sizing: border-box;
+    padding: 0 0 0 45px;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 700px;
+    top: 850px;
+
+background: #FFFFFF;
+border: 2px solid #1A67AE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.index13-complement{
+    position: absolute;
+width: 180px;
+height: 33px;
+left: 422px;
+top: 930px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+color: #0E1543;
+
+}
+#complement{
+    box-sizing: border-box;
+    padding: 0 0 0 45px;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 422px;
+    top: 960px;
+
+background: #FFFFFF;
+border: 2px solid #1A67AE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.index13-neighborhood{
+    position: absolute;
+width: 180px;
+height: 33px;
+left: 700px;
+top: 930px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+color: #0E1543;
+}
+#neighborhood{
+    box-sizing: border-box;
+    padding: 0 0 0 45px;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 700px;
+    top: 960px;
+
+background: #FFFFFF;
+border: 2px solid #1A67AE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.index13-city{
+    position: absolute;
+width: 180px;
+height: 33px;
+left: 700px;
+top: 1040px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+color: #0E1543;
+}
+#city{
+    box-sizing: border-box;
+    padding: 0 0 0 45px;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 700px;
+    top: 1070px;
+
+background: #FFFFFF;
+border: 2px solid #1A67AE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.index13-cep{
+    position: absolute;
+width: 180px;
+height: 33px;
+left: 422px;
+top: 1040px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+color: #0E1543;
+}
+#cep{
+    box-sizing: border-box;
+    padding: 0 0 0 45px;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 422px;
+    top: 1070px;
+
+background: #FFFFFF;
+border: 2px solid #1A67AE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.index13-contact{
+    position: absolute;
+    width: 335px;
+    left: calc(50% - 335px/2 + 0.5px);
+    top: 1170px;
+    bottom: 597px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    
+    color: #0E1543;
+}
+.linha3-index13{
+    position: absolute;
+width: 393px;
+height: 0px;
+left: 750px;
+top: 1195px;
+background-color: #1A67AE;
+
+border: 1px solid #1A67AE;
+transform: rotate(0.15deg);
+}
+.linha4-index13{
+    position: absolute;
+width: 393px;
+height: 0px;
+left: 205px;
+top: 1195px;
+background-color: #1A67AE;
+
+border: 1px solid #1A67AE;
+transform: rotate(0.15deg);
+}
+.index13-phone{
+    position: absolute;
+width: 180px;
+height: 33px;
+left: 552px;
+top: 1250px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+color: #0E1543;
+}
+#phone_number{
+    box-sizing: border-box;
+    padding: 0 0 0 45px;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 550px;
+    top: 1280px;
+
+background: #FFFFFF;
+border: 2px solid #1A67AE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.index13-email{
+    position: absolute;
+width: 180px;
+height: 33px;
+left: 552px;
+top: 1360px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+color: #0E1543;
+}
+#email{
+    box-sizing: border-box;
+    padding: 0 0 0 45px;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 550px;
+    top: 1390px;
+
+background: #FFFFFF;
+border: 2px solid #1A67AE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.index13-social{
+    position: absolute;
+width: 180px;
+height: 33px;
+left: 552px;
+top: 1470px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+
+color: #0E1543;
+}
+#social_network{
+    box-sizing: border-box;
+    padding: 0 0 0 45px;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 550px;
+    top: 1500px;
+
+background: #FFFFFF;
+border: 2px solid #1A67AE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.confirm_btn-index13 {
+    
+    box-sizing: border-box;
+    color:#0E1543;
+    position: absolute;
+    width: 15.57vw;
+    height: 4.39vw;
+    left: 42.2%;
+    top: 119.94vw;
+    font-size: 1.49vw;
+    background: #FDA911;
+    border-radius: 10px;
+    }
+    .confirm_btn-index13:hover {
+        background-color: #ffffff;
+        color: #0E1543;
+    }
+
+
+
+</style>
+
+
+<body>
+    <form class="index13-form">
+
+        <div class="linha-index13">
+        </div>
+        <div class="linha2-index13"></div>
+        <div class="linha3-index13"></div>
+        <div class="linha4-index13"></div>
+
+        <div class="index13-profile">
+            <p>Profile</p>
+        </div>
+        
+        <div class="index13-perfil">
+                <img src="./img (1)/Perfil (1).svg">
+        </div>
+    
+    <div class="index13-name">
+        <p>Name</p>
+    </div>
+    <div>
+        <input type="text" name="Name" id="in_name">
+    </div>
+    <div class="index13-last">
+        <p>Last name</p>
+    </div>
+    <div>
+        <input type="text" name="Last_Name" id="in_last">
+    </div>
+    <div class="CPF">
+        <p>CPF</p>
+    </div>
+    <div>
+        <input type="text" name="CPF" id="in_cpf">
+    </div>
+    <div class="index13-adress">
+        <p>Adress</p>
+    </div>
+    
+    <div class="index13-street">
+        <p>Street Name</p>
+    </div>
+    <div>
+        <input type="text" name="Neighborhood" id="in_street">
+    </div>
+    <div class="index13-number">
+        <p>Number</p>
+    </div>
+    <div>
+        <input type="tel" name="Number" id="number">
+    </div>
+    <div class="index13-complement">
+        <p>Complement</p>
+    </div>
+    <div class="index13-neighborhood">
+        <p>Neighborhood</p>
+    </div>
+    <div>
+        <input type="text" name="Neighborhood" id="neighborhood">
+    </div>
+    <div>
+        <input type="text" name="Complement" id="complement">
+    </div>
+    <div class="index13-city">
+        <p>City</p>
+    </div>
+    <div>
+        <input type="text" name="City" id="city">
+    </div>
+    <div class="index13-cep">
+        <p>CEP</p>
+    </div>
+    <div>
+        <input type="tel" name="CEP" id="cep">
+    </div>
+    <div class="index13-contact">
+        <p>Contact</p>
+    </div>
+    <div class="index13-phone">
+        <p>Phone Number</p>
+    </div>
+    <div>
+        <input type="text" name="Phone_Number" id="phone_number">
+    </div>
+    <div class="index13-email">
+        <p>E-mail</p>
+    </div>
+    <div>
+        <input type="text" name="Email" id="email">
+    </div>
+    <div class="index13-social">
+        <p>Social Network</p>
+    </div>
+    <div>
+        <input type="text" name="Social_Network" id="social_network">
+    </div>
+    <div>
+        <button type="button" class="confirm_btn-index13">Confirm</button>
+        </div>
+</form>
+    
+</body>
+</html>
