@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  background-color: #e5e7fa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  height: 2.5vw;
+  background-color: #f2f2f2;
+  padding: 2vw;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+.logo {
+  width: 18vw;
+}
+
+.index2-form-1 {
+  width: 50vw;
+  height: 36.6vw;
+}
+.index2-form-2 {
+  width: 50vw;
+  height: 41vw;
+}
+.sign {
+  width: 23.13vw;
+  top: 5vw;
+  margin-left: 8vw;
+  bottom: 33.89vw;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.68vw;
+  color: #0e1543;
+}
+.btn_woodworker {
+  width: 30.74vw;
+  height: 4.39vw;
+  margin-left: 3vw;
+  margin-top: 10vw;
+  text-align: center;
+  font-size: 2.19vw;
+  background: #fda911;
+  border: 2px solid #1a67ae;
+  border-radius: 50px;
+  color: black;
+}
+.btn_woodworker:hover {
+  background-color: #1a67ae;
+}
+.btn_client {
+  width: 30.74vw;
+  height: 4.39vw;
+  margin-left: 3vw;
+  margin-top: 4.5vw;
+  font-size: 2.19vw;
+  background: #fda911;
+  border: 2px solid #1a67ae;
+  border-radius: 50px;
+  color: black;
+}
+.btn_client:hover {
+  background-color: #1a67ae;
+}
+.welcome {
+  top: 2.5vw;
+  margin-left: 6.5vw;
+  font-size: 4.68vw;
+  color: #0e1543;
+}
+.email {
+  width: 8.27vw;
+  height: 2.92vw;
+  left: 11%;
+  top: 13.17vw;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.19vw;
+  line-height: 2.63vw;
+  color: #0e1543;
+}
+.in_email {
+  border: 2px solid #1a67ae;
+  border-radius: 10px;
+  background-color: #ffffff;
+  height: 4.39vw;
+  width: 25.25vw;
+  font-size: 1.83vw;
+}
+.password {
+  width: 8.27vw;
+  height: 2.92vw;
+  left: 11%;
+  top: 21.59vw;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.19vw;
+  line-height: 2.63vw;
+  color: #0e1543;
+}
+.in_password {
+  padding: 0px 0px 0px 15px;
+  border: 2px solid #1a67ae;
+  border-radius: 10px;
+  background-color: #ffffff;
+  height: 4.39vw;
+  width: 25.25vw;
+  font-size: 1.83vw;
+  margin-top: 0.5vw;
+}
+.forgot {
+  width: 26.57vw;
+  height: 2.92vw;
+  left: 28%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.46vw;
+  line-height: 1.75vw;
+  text-align: center;
+  color: #0e1543;
+}
+.login_btn {
+  box-sizing: border-box;
+  color: black;
+  width: 26.57vw;
+  height: 4.39vw;
+  left: 11%;
+  top: 32.94vw;
+  font-size: 2.19vw;
+  background: #fda911;
+  border: 2px solid #1a67ae;
+  border-radius: 10px;
+}
+.login_btn:hover {
+  background-color: #1a67ae;
+}
+.forgot:hover{
+    text-decoration-line: underline;
+}
