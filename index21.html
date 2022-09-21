@@ -65,13 +65,14 @@
             color: #0E1543;
     } 
     #description {
-        display: grid;
-        grid-template-columns: auto auto;
+        display: flex;
         justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
         margin-top: 5vw;
-        margin-left: 10vw;
-        
-        
+        flex-wrap: wrap;
+        gap: 30vw;   
     }
     h3 {
         text-align: start;
@@ -82,17 +83,12 @@
         width: 30%;
         text-align: center;
     }
-    #form-icons {
-        width: 100%;
-       display: grid;
-       margin-left: 58vw;
-        margin-top: -16vw;
-    }
     #buttons {
-        display: grid;
-       
+        display: flex;
+        justify-content: center;
+        gap: 20px;
     }
-
+   
     
 
 
@@ -110,9 +106,8 @@
             <br><br><p>A Dimare aplica em seus produtos matéria-prima da melhor qualidade, selecionada entre seletos fornecedores - como Duratex, Eucatex e Berneck emprega equipamentos e tecnologia de ponta.
                 <br><br>Com profissionais altamente qualificados, oferece produtos fabricados com excelência, de alto padrão, que harmonizam ambientes, trazendo personalização e exclusividade para clientes e consumidores.</p>
         </div>
-    </form>
+  
    
-    <form id="form-icons">
         
         <div class="city">
             <p>Blumenau - SC</p>
@@ -140,14 +135,13 @@
             <p>Facebook: @budgetech</p>
         </div>
 
-        <form id="bottons">
-           
-            <button type="button" class="btn btn-warning" style="width:8%;">View furnitures</button>
-            <button type="button" class="btn btn-warning" style="width:5%;">Request</button>
-    
-        </form>
         
+           <div id="buttons">
+            <button type="button" class="btn btn-warning" style="width:60%;">View furnitures</button>
+          
+            <button type="button" class="btn btn-warning" style="width:40%;">Request</button></div>
 
+    </form>
         
 
     
